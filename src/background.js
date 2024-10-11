@@ -6,7 +6,6 @@
 });
 
 function toggleARC() {
-  // This function will be injected into the page
   if (typeof window.arcEnabled === 'undefined') {
     window.arcEnabled = false;
   }
